@@ -233,35 +233,35 @@ ul {
     background: var(--bg-subtle);
 }
 
-/* Sticky Filter Bar */
+/* Sticky Filter Bar (Decluttered & Streamlined) */
 .sticky-filter-bar {
     position: sticky;
-    top: 73px;
+    top: 68px;
     z-index: 990;
-    background: rgba(251, 249, 245, 0.95);
+    background: rgba(251, 249, 245, 0.94);
     backdrop-filter: blur(12px);
-    border-top: 1px solid var(--card-border);
     border-bottom: 1px solid var(--card-border);
-    padding: 12px 0;
-    margin-bottom: 30px;
+    padding: 8px 0;
+    margin-bottom: 24px;
 }
 
 .filter-container {
     display: flex;
-    gap: 12px;
+    gap: 8px;
+    align-items: center;
     overflow-x: auto;
 }
 
 .filter-tab {
-    background: var(--bg-subtle);
-    border: 1px solid var(--card-border);
+    background: transparent;
+    border: 1px solid transparent;
     color: var(--text-muted);
     font-family: var(--font-heading);
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    padding: 10px 22px;
-    border-radius: 4px;
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding: 6px 14px;
+    border-radius: 999px;
     cursor: pointer;
     white-space: nowrap;
     transition: var(--transition);
@@ -269,7 +269,7 @@ ul {
 
 .filter-tab:hover {
     color: var(--text-white);
-    border-color: var(--text-white);
+    background: var(--bg-subtle);
 }
 
 .filter-tab.active {
@@ -355,57 +355,80 @@ ul {
     border-radius: 50%;
 }
 
+.domain-pills-wrap {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .card-domain-link {
     font-family: var(--font-heading);
-    font-size: 0.85rem;
-    font-weight: 700;
+    font-size: 0.78rem;
+    font-weight: 600;
     color: var(--text-white);
+    background: var(--bg-subtle);
     border: 1px solid var(--card-border);
-    padding: 4px 14px;
-    border-radius: 4px;
+    padding: 4px 11px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     transition: var(--transition);
+}
+
+.card-domain-link i {
+    font-size: 0.72rem;
+}
+
+.card-domain-link.link-github {
+    color: var(--text-muted);
+    padding: 4px 9px;
 }
 
 .card-domain-link:hover {
     background: var(--volt-accent);
-    color: #000;
+    color: #ffffff;
     border-color: var(--volt-accent);
 }
 
 .card-heading {
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     color: var(--text-white);
-    margin-bottom: 4px;
+    margin-bottom: 5px;
+    line-height: 1.3;
 }
 
 .card-subhead {
-    font-size: 0.85rem;
-    color: var(--text-muted);
+    font-size: 0.82rem;
+    color: var(--volt-accent);
+    font-weight: 600;
+    letter-spacing: 0.02em;
     margin-bottom: 12px;
 }
 
 .card-summary {
-    font-size: 0.92rem;
+    font-size: 0.9rem;
     color: var(--text-muted);
     line-height: 1.6;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 
 .tag-row {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .tag-volt {
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-family: var(--font-heading);
     font-weight: 600;
     color: var(--text-white);
     background: var(--bg-subtle);
     border: 1px solid var(--card-border);
-    padding: 3px 10px;
+    padding: 3px 9px;
     border-radius: 4px;
 }
 
