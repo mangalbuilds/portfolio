@@ -322,7 +322,7 @@ function renderQrCode() {
 
     if (container.children.length > 0) return;
 
-    const portfolioUrl = "https://mangalcool222.github.io/portfolio/?ref=qr_resume";
+    const portfolioUrl = "https://mangalbuilds.github.io/portfolio/?ref=qr_resume";
     const qrApiUrl = `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(portfolioUrl)}&color=1c1917&bgcolor=fbf9f5&margin=1`;
 
     container.innerHTML = `
@@ -337,7 +337,7 @@ function renderQrCode() {
 function downloadQrCode() {
     showToast("Generating Executive QR Card PNG...");
 
-    const portfolioUrl = "https://mangalcool222.github.io/portfolio/?ref=qr_resume";
+    const portfolioUrl = "https://mangalbuilds.github.io/portfolio/?ref=qr_resume";
     const qrApiUrl = `https://api.qrserver.com/v1/create-qr-code/?size=600x600&data=${encodeURIComponent(portfolioUrl)}&color=1c1917&bgcolor=fbf9f5&margin=1`;
 
     const img = new Image();
@@ -404,7 +404,7 @@ function downloadQrCode() {
 
         ctx.fillStyle = "#da7756";
         ctx.font = "bold 26px 'Space Grotesk', -apple-system, sans-serif";
-        ctx.fillText("https://mangalcool222.github.io/portfolio/", size / 2, 895);
+        ctx.fillText("https://mangalbuilds.github.io/portfolio/", size / 2, 895);
 
         // Convert canvas to blob & trigger direct download
         canvas.toBlob((blob) => {
@@ -431,7 +431,7 @@ function downloadQrCode() {
 
 // Copy Portfolio URL
 function copyPortfolioUrl() {
-    const url = "https://mangalcool222.github.io/portfolio/?ref=qr_resume";
+    const url = "https://mangalbuilds.github.io/portfolio/?ref=qr_resume";
     navigator.clipboard.writeText(url).then(() => {
         showToast("Link Copied to Clipboard!");
     }).catch(() => {
@@ -449,7 +449,7 @@ TITLE:Product Building • Testing • Operations
 ORG:UGhar & Creatorlytics
 EMAIL;TYPE=INTERNET,HOME:mangalsoren2025@dbe-du.org
 TEL;TYPE=CELL,VOICE:+919771783048
-URL:https://mangalcool222.github.io/portfolio/
+URL:https://mangalbuilds.github.io/portfolio/
 URL;TYPE=LinkedIn:https://www.linkedin.com/in/mangal-soren-1312ba31a/
 NOTE:MBA Candidate Department of Business Economics University of Delhi. Building & Testing UGhar, Kanjo, Creatorlytics & CreatiGen.
 END:VCARD`;

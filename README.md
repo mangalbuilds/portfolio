@@ -1,8 +1,8 @@
 # Hey! 👋 I’m Mangal from Jamshedpur.
 
-[![Portfolio Website](https://img.shields.io/badge/Portfolio-mangalcool222.github.io-007ACC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mangalcool222.github.io/portfolio/)
+[![Portfolio Website](https://img.shields.io/badge/Portfolio-mangalbuilds.github.io-007ACC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mangalbuilds.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mangal_Soren-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mangal-soren-1312ba31/)
-[![GitHub](https://img.shields.io/badge/GitHub-@mangalcool222-181717?style=for-the-badge&logo=github)](https://github.com/mangalcool222)
+[![GitHub](https://img.shields.io/badge/GitHub-@mangalbuilds-181717?style=for-the-badge&logo=github)](https://github.com/mangalbuilds)
 [![Location](https://img.shields.io/badge/Location-Jamshedpur,_India-FF5722?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 > **Product Management | Product Building | Automation & AI Workflows**
@@ -37,8 +37,8 @@
 | **📊 Creatorlytics** | A creator-focused tool for managing sponsorships, brand deals, and revenue tracking. | Creator SaaS |
 | **🎬 CreatiGen** | An experiment around helping creators turn long-form source videos into short-form content. | AI Experiment |
 | **🧠 Perspective.ai** | A simple experiment around turning complex choices into structured decision briefs. | AI Product |
-| **⚡ [GTM Agentic Engine](https://github.com/mangalcool222/gtm-n8n-agentic-engine)** | An autonomous n8n & Gemini AI scraping, 3-rule guardrail evaluation, and Trello sync pipeline. | Open-Source Automation |
-| **🤖 [Claude Code CLI](https://github.com/mangalcool222/claude-code-cli)** | An open-source CLI coding agent supporting Gemini 2.5 Flash, Claude 3.5, and local Ollama models. | Developer Tool |
+| **⚡ [GTM Agentic Engine](https://github.com/mangalbuilds/gtm-n8n-agentic-engine)** | An autonomous n8n & Gemini AI scraping, 3-rule guardrail evaluation, and Trello sync pipeline. | Open-Source Automation |
+| **🤖 [Claude Code CLI](https://github.com/mangalbuilds/claude-code-cli)** | An open-source CLI coding agent supporting Gemini 2.5 Flash, Claude 3.5, and local Ollama models. | Developer Tool |
 | **🔄 Automation Experiments** | Small n8n & Python workflows built to solve repetitive tasks and explore automation frontiers. | Automation |
 
 ---
@@ -61,9 +61,9 @@ timeline
 
 ### 📬 Connect
 
-- 🌐 **Portfolio Website:** [mangalcool222.github.io/portfolio](https://mangalcool222.github.io/portfolio/)
+- 🌐 **Portfolio Website:** [mangalbuilds.github.io/portfolio](https://mangalbuilds.github.io/portfolio/)
 - 💼 **LinkedIn:** [linkedin.com/in/mangal-soren-1312ba31](https://www.linkedin.com/in/mangal-soren-1312ba31/)
-- 🐙 **GitHub:** [@mangalcool222](https://github.com/mangalcool222)
+- 🐙 **GitHub:** [@mangalbuilds](https://github.com/mangalbuilds)
 - 📍 **Location:** Jamshedpur, India
 
 > *I’m mostly here to learn, build, break things, and understand how products actually work.*
