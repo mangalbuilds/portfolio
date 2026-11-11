@@ -32,6 +32,8 @@
 
 | Project | Overview & Core Focus | Category |
 | :--- | :--- | :--- |
+| **🎯 [Prex](https://getprex.com/)** ([GitHub](https://github.com/mangalbuilds/getprex)) | Pre-market talent intelligence platform discovering unlisted AI PM, Growth, and Founder's Office roles 2–4 weeks before public boards. Includes 1-tap founder dispatch, Telegram real-time push feed, and ₹499/mo Razorpay tier. | Talent Intelligence • Live SaaS |
+| **⚡ [TrackKaro AI & Vance](https://usevance.com/)** ([GitHub](https://github.com/mangalbuilds/growth-os)) | Autonomous B2B GTM OS combining intent outbound prospecting (23 buying triggers, <3% bounce SLA) with sub-15s speed-to-lead inbound dispatch. | Autonomous AI GTM • Live Platform |
 | **🏠 UGhar** | A hyperlocal home-services platform built around local service requests, booking, and technician workflows. | Product MVP |
 | **🎌 Kanjo** | An anime discovery platform exploring mood and feeling-based content discovery. | Product MVP |
 | **📊 Creatorlytics** | A creator-focused tool for managing sponsorships, brand deals, and revenue tracking. | Creator SaaS |
