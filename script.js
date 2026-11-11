@@ -445,13 +445,14 @@ function downloadVCard() {
 VERSION:3.0
 FN:Mangal Soren
 N:Soren;Mangal;;;
-TITLE:Product Building • Testing • Operations
-ORG:UGhar & Creatorlytics
-EMAIL;TYPE=INTERNET,HOME:mangalsoren2025@dbe-du.org
+TITLE:AI Product Manager • GTM Automation Architect
+ORG:Vance & TrackKaro AI
+EMAIL;TYPE=INTERNET,WORK:mangal@usevance.com
+EMAIL;TYPE=INTERNET,HOME:mangal@trackkaroai.com
 TEL;TYPE=CELL,VOICE:+919771783048
 URL:https://mangalbuilds.github.io/portfolio/
 URL;TYPE=LinkedIn:https://www.linkedin.com/in/mangal-soren-1312ba31a/
-NOTE:MBA Candidate Department of Business Economics University of Delhi. Building & Testing UGhar, Kanjo, Creatorlytics & CreatiGen.
+NOTE:AI Product Manager & GTM Automation Architect. Building Vance (usevance.com), TrackKaro AI, and Prex (getprex.com).
 END:VCARD`;
 
     const blob = new Blob([vcardData], { type: 'text/vcard;charset=utf-8' });
