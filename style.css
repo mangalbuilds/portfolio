@@ -118,14 +118,14 @@ ul {
     box-shadow: 0 5px 20px rgba(218, 119, 86, 0.3);
 }
 
-/* Hero Section (Full Width Minimal Luxury) */
+/* Hero Section (Landing Page Design System) */
 .hero-section {
-    padding-top: 140px;
-    padding-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 36px;
 }
 
 .hero-full {
-    max-width: 900px;
+    max-width: 820px;
 }
 
 .hero-header-badge {
@@ -133,15 +133,15 @@ ul {
     align-items: center;
     gap: 10px;
     font-family: var(--font-heading);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 700;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
     color: var(--text-white);
     background: var(--bg-subtle);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    padding: 6px 16px;
+    border: 1px solid var(--card-border);
+    padding: 6px 14px;
     border-radius: 30px;
-    margin-bottom: 18px;
+    margin-bottom: 14px;
 }
 
 .status-indicator {
@@ -161,18 +161,25 @@ ul {
 
 .hero-title {
     font-family: var(--font-display);
-    font-size: 6.2rem;
-    line-height: 0.9;
-    letter-spacing: 2px;
-    color: var(--text-white);
-    margin-bottom: 20px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.025em;
+    max-width: 680px;
+    text-wrap: balance;
+    background: linear-gradient(135deg, #1c1917 0%, #57534e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
 }
 
 .hero-tagline {
-    font-size: 1.25rem;
+    font-size: 1.075rem;
     color: var(--text-muted);
     line-height: 1.6;
-    margin-bottom: 35px;
+    max-width: 620px;
+    text-wrap: pretty;
+    margin-bottom: 24px;
 }
 
 .highlight-link {
@@ -750,7 +757,9 @@ footer {
 /* Mobile Responsive */
 @media (max-width: 768px) {
     .hero-title {
-        font-size: 3.8rem;
+        font-size: 2.35rem;
+        letter-spacing: -0.02em;
+        line-height: 1.15;
     }
 
     .compact-grid, .research-trio-grid, .split-columns {
