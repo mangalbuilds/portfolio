@@ -196,6 +196,7 @@
                     <div class="tag-row">
                         <span class="tag-volt">n8n Workflows</span>
                         <span class="tag-volt">Webhooks</span>
+                        <span class="tag-volt">Playwright E2E</span>
                         <span class="tag-volt">Telegram Bot API</span>
                         <span class="tag-volt">WhatsApp API</span>
                         <span class="tag-volt">Python &amp; FastAPI</span>
@@ -215,6 +216,7 @@
                             <li><strong>TrackKaro Inbound Routing (Working):</strong> Ingests form webhooks, parses contact details, triggers a Telegram alert with basic lead details, and sends a WhatsApp message via API.</li>
                             <li><strong>Vance Outbound Flow (Prototype):</strong> Collects domain and company data using search APIs, formats contact information, and generates initial draft outreach emails using AI prompts.</li>
                             <li><strong>Data Logging:</strong> Tested syncing submitted leads to Google Sheets and Supabase tables for structured tracking.</li>
+                            <li><strong>Automated E2E Testing:</strong> Built dual-environment Playwright test suites (<code>--env local</code> / <code>--env prod</code>) for Vance to verify interactive intent components, Nginx routing, and live SSL uptime with separate HTML audit reports and video captures.</li>
                         </ul>
 
                         <p class="cs-label">03. CURRENT STATUS</p>
@@ -748,6 +750,7 @@
                         <li>Developed and published an open-source n8n community node (<code>n8n-nodes-whatsapp-callmebot</code>) on npm with automated CI/CD via GitHub Actions.</li>
                         <li>Experimented with prospect research workflows using search APIs and LLM prompts to gather account information and draft introductory outreach emails.</li>
                         <li>Connected automated workflows to Supabase and Google Sheets to store lead details and maintain organized records.</li>
+                        <li>Configured dual-environment Playwright regression tests for Vance to validate UI interactions, live routing, and SSL uptime with automated audit reports.</li>
                         <li>Used AI coding tools (Antigravity, Claude, Cursor) to write, debug, and improve workflow JavaScript, API calls, and web components.</li>
                     </ul>
                 </div>
