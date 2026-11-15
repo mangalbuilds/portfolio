@@ -118,68 +118,68 @@ ul {
     box-shadow: 0 5px 20px rgba(218, 119, 86, 0.3);
 }
 
-/* Hero Section (Landing Page Design System) */
+/* Hero Section (Landing Page Design System - Compact & High Conversion) */
 .hero-section {
-    padding-top: 100px;
-    padding-bottom: 36px;
+    padding-top: 68px;
+    padding-bottom: 20px;
 }
 
 .hero-full {
-    max-width: 820px;
+    max-width: 780px;
 }
 
 .hero-header-badge {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     font-family: var(--font-heading);
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 700;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     color: var(--text-white);
     background: var(--bg-subtle);
     border: 1px solid var(--card-border);
-    padding: 6px 14px;
+    padding: 4px 12px;
     border-radius: 30px;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
 }
 
 .status-indicator {
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     background-color: var(--volt-accent);
     border-radius: 50%;
-    box-shadow: 0 0 10px var(--volt-accent);
+    box-shadow: 0 0 8px var(--volt-accent);
     animation: pulseVolt 2s infinite;
 }
 
 @keyframes pulseVolt {
     0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(218, 119, 86, 0.7); }
-    70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(218, 119, 86, 0); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(218, 119, 86, 0); }
     100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(218, 119, 86, 0); }
 }
 
 .hero-title {
     font-family: var(--font-display);
-    font-size: 3.5rem;
+    font-size: 2.45rem;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.15;
     letter-spacing: -0.025em;
     max-width: 680px;
     text-wrap: balance;
     background: linear-gradient(135deg, #1c1917 0%, #57534e 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .hero-tagline {
-    font-size: 1.075rem;
+    font-size: 0.98rem;
     color: var(--text-muted);
-    line-height: 1.6;
-    max-width: 620px;
+    line-height: 1.55;
+    max-width: 580px;
     text-wrap: pretty;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 }
 
 .highlight-link {
